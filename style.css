@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color:rgba(0, 0, 0, 0.506) ;
+    /* padding:20px; */
+    color:white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo-photo{
+    width: 45px;
+}
+.menus{
+    display: flex;
+
+}
+.item{
+    margin: 8px;
+    font-size: 8px;
+    cursor: pointer;
+}
+.item:hover{
+    color: red;
+}
+.banner-img{
+    width: 200px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.avif");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.des{
+    font-size: 12px;
+    margin: 10px 10px 10px 10px;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    color: blue;
+}
+.about-photo{
+    width: 150px;
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}.title{
+    text-align: center;
+    padding-top:20px ;
+}
+.lg{
+    width: 80px;
+}
+.box{
+    width: 180px;
+    height: 300px;
+    box-shadow:4px 4px 15px gray ;
+    background-color: black;
+    text-align: center;
+    padding:15px;
+    color: white;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-deacription{
+    padding: 2px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./photo/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.avif");
+}
